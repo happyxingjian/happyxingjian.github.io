@@ -1,6 +1,7 @@
 ---
 title: Lombok
 date: 2021-11-04 01:14:36
+sticky: 1
 ---
 
 ## 什么是lombok
