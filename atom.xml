@@ -3,11 +3,11 @@
   <title>高手坟墓</title>
   
   <subtitle>个人技术学习</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://happyxingjian.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2021-11-03T16:31:16.857Z</updated>
-  <id>http://example.com/</id>
+  <link href="http://happyxingjian.github.io/"/>
+  <updated>2021-11-04T16:33:04.549Z</updated>
+  <id>http://happyxingjian.github.io/</id>
   
   <author>
     <name>邢建</name>
@@ -17,9 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Lombok</title>
+    <link href="http://happyxingjian.github.io/2021/11/04/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E7%B1%BB/Lombok/"/>
+    <id>http://happyxingjian.github.io/2021/11/04/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E7%B1%BB/Lombok/</id>
+    <published>2021-11-03T17:14:36.000Z</published>
+    <updated>2021-11-04T16:33:04.549Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="什么是lombok"><a href="#什么是lombok" class="headerlink" title="什么是lombok"></a>什么是lombok</h2><blockquote><p>Lombok项目是一个Java库，它会自动插入编辑器和构建工具中，Lombok提供了一组有用的注释，用来消除Java类中的大量样板代码。仅五个字符(@Data)就可以替换数百行代码从而产生干净，简洁且易于维护的Java类。</p></blockquote><h2 id="使用lombok"><a href="#使用lombok" class="headerlink" title="使用lombok"></a>使用lombok</h2><h3 id="1-引入依赖"><a href="#1-引入依赖" class="headerlink" title="1.引入依赖"></a>1.引入依赖</h3><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.projectlombok<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>lombok<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.18.12<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">scope</span>&gt;</span>provided<span class="tag">&lt;/<span class="name">scope</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure><h3 id="2-使用提供注解"><a href="#2-使用提供注解" class="headerlink" title="2.使用提供注解"></a>2.使用提供注解</h3><h4 id="Data注解："><a href="#Data注解：" class="headerlink" title="@Data注解："></a>@Data注解：</h4><p>用在类上，自动给类提供 SET、 GET、 toString、hashCode、equals等方法</p><h4 id="Getter-Setter"><a href="#Getter-Setter" class="headerlink" title="@Getter/@Setter:"></a>@Getter/@Setter:</h4><p>用在类上，自动给类提供 SET 或者 GET</p><h4 id="ToString"><a href="#ToString" class="headerlink" title="@ToString:"></a>@ToString:</h4><p> 用在类上，自动给类提供 toString()方法</p><h4 id="AllArgsConstructor"><a href="#AllArgsConstructor" class="headerlink" title="@AllArgsConstructor:"></a>@AllArgsConstructor:</h4><p>用在类上，自动给类提供 全参构造方法,如提供全参，则记得必须加上无参@NoArgsConstructor</p><h4 id="NoArgsConstructor"><a href="#NoArgsConstructor" class="headerlink" title="@NoArgsConstructor:"></a>@NoArgsConstructor:</h4><p>用在类上，自动给类提供 无参构造方法</p><h4 id="Accessors-chain-true-："><a href="#Accessors-chain-true-：" class="headerlink" title="@Accessors(chain = true)："></a>@Accessors(chain = true)：</h4><p>用在类上，用来给类的setter方法开启链式调用,其中chain属性决定是否开启链式<br>    user.set(..).set(..).set()……</p><h4 id="slf4j4"><a href="#slf4j4" class="headerlink" title="@slf4j4:"></a>@slf4j4:</h4><p>用在类上,用来快速给类定义一个日志变量</p><p>相当于添加了变量private Logger log = LoggerFactory.getLogger(this.getClass());</p><h2 id="lombok原理"><a href="#lombok原理" class="headerlink" title="lombok原理"></a>lombok原理</h2><p>@Retention(RetentionPolicy.SOURCE),表示在编译成字节码的时候植入代码</p><h2 id="lombok安装"><a href="#lombok安装" class="headerlink" title="lombok安装"></a>lombok安装</h2><p>默认IDEA没有安装lombok插件</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;什么是lombok&quot;&gt;&lt;a href=&quot;#什么是lombok&quot; class=&quot;headerlink&quot; title=&quot;什么是lombok&quot;&gt;&lt;/a&gt;什么是lombok&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;Lombok项目是一个Java库，它会自动插入编辑器和构建</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/11/04/hello-world/"/>
-    <id>http://example.com/2021/11/04/hello-world/</id>
+    <link href="http://happyxingjian.github.io/2021/11/04/hello-world/"/>
+    <id>http://happyxingjian.github.io/2021/11/04/hello-world/</id>
     <published>2021-11-03T16:31:16.841Z</published>
     <updated>2021-11-03T16:31:16.857Z</updated>
     
