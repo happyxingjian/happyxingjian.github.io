@@ -181,8 +181,8 @@ index_post_content:
 # toc (目錄)
 toc:
   enable: true
-  number: true
-  style_simple: false
+  number: false
+  style_simple: true
 
 post_copyright:
   enable: true
