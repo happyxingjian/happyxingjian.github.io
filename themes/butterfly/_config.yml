@@ -43,8 +43,9 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  # fab fa-github: https://github.com/xxxxx || Github
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fab fa-github: https://github.com/happyxingjian || Github
+  fas fa-envelope: mailto:2450125345@qq.com || Email
+  fas fa-blog: https://happyxingjian.github.io/ || 个人博客
 
 # search (搜索)
 # --------------------------------------
@@ -168,7 +169,7 @@ wordcount:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 2
   length: 500 # if you set method to 2 or 3, the length need to config
 
 # Post
