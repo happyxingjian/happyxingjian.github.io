@@ -105,3 +105,8 @@ deploy:
   type: git
   repository: git@github.com:happyxingjian/happyxingjian.github.io.git
   branch: master
+
+# 由于需要全局都插入aplayer和meting资源，为了防止插入重复的资源，需要把asset_inject设为false
+aplayer:
+  meting: true
+  asset_inject: false
