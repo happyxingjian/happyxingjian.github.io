@@ -6,7 +6,7 @@
   <link href="http://happyxingjian.github.io/atom.xml" rel="self"/>
   
   <link href="http://happyxingjian.github.io/"/>
-  <updated>2022-10-01T15:48:01.565Z</updated>
+  <updated>2022-10-02T03:57:23.455Z</updated>
   <id>http://happyxingjian.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>编程技术书</title>
+    <link href="http://happyxingjian.github.io/2022/10/02/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF%E4%B9%A6/"/>
+    <id>http://happyxingjian.github.io/2022/10/02/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF%E4%B9%A6/</id>
+    <published>2022-10-02T03:27:34.000Z</published>
+    <updated>2022-10-02T03:57:23.455Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="技术书"><a href="#技术书" class="headerlink" title="技术书"></a>技术书</h1><ul><li>基础：<ul><li>《On Java 8》</li><li>《Java 8 实战》</li><li>《Java 核心技术卷 1+卷 2》</li><li>《编程思想第四版》</li></ul></li><li>并发：<ul><li>《Java 并发编程之美》 </li><li>《实战 Java 高并发程序设计》</li><li>《Java 并发编程的艺术》</li></ul></li><li>JVM：<ul><li>《深入理解Java虚拟机第三版》</li></ul></li><li>代码优化：<ul><li>《代码整洁之道》</li><li>《重构：改善既有代码》 </li><li>《Effective java中文第三版》</li><li>《阿里巴巴 Java 开发手册》</li><li>《代码大全》</li></ul></li><li>网络：<ul><li>《图解 HTTP》</li><li>《HTTP 权威指南》 </li></ul></li><li>操作系统：<ul><li>《鸟哥的 Linux 私房菜》</li></ul></li><li>数据结构与算法：<ul><li>《算法图解》</li><li>《算法 第四版》</li></ul></li><li>设计模式：<ul><li>《大话设计模式》</li><li>《Head First 设计模式（中文版）》</li><li>《设计模式 : 可复用面向对象软件的基础 》</li></ul></li><li>数据库：<ul><li>《Redis 设计与实现》</li><li>《高性能 MySQL》</li><li>《MySQL 技术内幕-InnoDB 存储引擎》</li></ul></li><li>常用框架：<ul><li>《Netty 实战》</li><li>《从 Paxos 到 Zookeeper》</li><li>《Spring 实战（第 4 版）》</li><li>《RabbitMQ 实战指南》</li></ul></li><li>网站架构：<ul><li>《大型网站技术架构：核心原理与案例分析+李智慧》</li><li>《亿级流量网站架构核心技术》</li></ul></li><li>软件底层：<ul><li>《深入剖析 Tomcat》</li><li>《深入理解 Nginx（第 2 版）》</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;技术书&quot;&gt;&lt;a href=&quot;#技术书&quot; class=&quot;headerlink&quot; title=&quot;技术书&quot;&gt;&lt;/a&gt;技术书&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;基础：&lt;ul&gt;
+&lt;li&gt;《On Java 8》&lt;/li&gt;
+&lt;li&gt;《Java 8 实战》&lt;/li&gt;
+&lt;li&gt;《Java </summary>
+      
+    
+    
+    
+    <category term="书" scheme="http://happyxingjian.github.io/categories/%E4%B9%A6/"/>
+    
+    
+    <category term="java" scheme="http://happyxingjian.github.io/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo学习</title>
