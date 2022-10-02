@@ -58,6 +58,12 @@ tags:
 
 相当于添加了变量private Logger log = LoggerFactory.getLogger(this.getClass());
 
+#### @SneakyThrows
+
+作用 是为了用try{}catch{}捕捉异常，添加之后会在  代码编译时 自动捕获异常
+
+@SneakyThrows直接把捕获异常的代码嵌入到了class文件里
+
 ## lombok原理
 
 @Retention(RetentionPolicy.SOURCE),表示在编译成字节码的时候植入代码
